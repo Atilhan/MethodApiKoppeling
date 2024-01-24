@@ -1,0 +1,947 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ATILHAN</Machine>
+    <WindowsUser>Gorin</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>com.companyname.methodapikoppeling</PackageIdentityName>
+    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <RegisteredManifestChecksum>38DC9F9AEA7E811CB4FC98B02F0EEA1AF91A83C5D3FE262EEA6EF87FFD0753C5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.companyname.methodapikoppeling_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.companyname.methodapikoppeling_9zz4h110yvjzm!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.companyname.methodapikoppeling</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2024-01-24T08:57:55.275</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2024-01-24T08:57:54.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MethodApiKoppeling.runtimeconfig.json">
+      <PackagePath>MethodApiKoppeling.runtimeconfig.json</PackagePath>
+      <Modified>2024-01-22T15:14:10.769</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MethodApiKoppeling.dll">
+      <PackagePath>MethodApiKoppeling.dll</PackagePath>
+      <Modified>2024-01-24T08:57:52.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+      <PackagePath>MethodApiKoppeling.exe</PackagePath>
+      <Modified>2024-01-24T08:57:52.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\Resources\Raw\AboutAssets.txt">
+      <PackagePath>AboutAssets.txt</PackagePath>
+      <Modified>2024-01-22T12:52:21.977</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.424</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
+      <Modified>2024-01-22T12:52:21.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+      <Modified>2024-01-22T12:52:21.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2024-01-22T12:52:51.606</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2024-01-22T12:52:52.012</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-01-22T12:52:52.031</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-01-22T12:52:52.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2024-01-22T12:52:52.075</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+      <Modified>2024-01-22T12:52:52.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.722</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.749</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.733</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.619</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.626</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.633</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.639</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.648</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.664</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.670</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.832</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.841</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.803</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.812</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.755</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.901</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.912</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.998</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+      <Modified>2024-01-22T12:52:51.710</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MethodApiKoppeling.deps.json">
+      <PackagePath>MethodApiKoppeling.deps.json</PackagePath>
+      <Modified>2024-01-24T08:29:29.027</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
+      <Modified>2023-10-16T19:41:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
+      <PackagePath>WinRT.Runtime.dll</PackagePath>
+      <Modified>2023-10-16T19:41:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
+      <Modified>2023-10-31T14:59:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.extensions.configuration.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Configuration.Abstractions.dll</PackagePath>
+      <Modified>2023-10-31T14:59:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.extensions.dependencyinjection\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.dll</PackagePath>
+      <Modified>2023-10-31T14:59:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.DependencyInjection.Abstractions.dll</PackagePath>
+      <Modified>2023-10-31T14:58:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.extensions.logging\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.dll">
+      <PackagePath>Microsoft.Extensions.Logging.dll</PackagePath>
+      <Modified>2023-10-31T14:59:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.extensions.logging.abstractions\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Abstractions.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Abstractions.dll</PackagePath>
+      <Modified>2023-10-31T14:59:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.extensions.logging.debug\8.0.0\lib\net8.0\Microsoft.Extensions.Logging.Debug.dll">
+      <PackagePath>Microsoft.Extensions.Logging.Debug.dll</PackagePath>
+      <Modified>2023-10-31T14:59:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.extensions.objectpool\6.0.16\lib\net6.0\Microsoft.Extensions.ObjectPool.dll">
+      <PackagePath>Microsoft.Extensions.ObjectPool.dll</PackagePath>
+      <Modified>2023-03-24T20:37:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.extensions.options\8.0.0\lib\net8.0\Microsoft.Extensions.Options.dll">
+      <PackagePath>Microsoft.Extensions.Options.dll</PackagePath>
+      <Modified>2023-10-31T14:59:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.extensions.primitives\8.0.0\lib\net8.0\Microsoft.Extensions.Primitives.dll">
+      <PackagePath>Microsoft.Extensions.Primitives.dll</PackagePath>
+      <Modified>2023-10-31T14:58:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\lib\net5.0-windows10.0.17763.0\Microsoft.Graphics.Canvas.Interop.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.Interop.dll</PackagePath>
+      <Modified>2023-05-31T20:07:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.identitymodel.logging\6.8.0\lib\netstandard2.0\Microsoft.IdentityModel.Logging.dll">
+      <PackagePath>Microsoft.IdentityModel.Logging.dll</PackagePath>
+      <Modified>2020-10-13T00:23:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.identitymodel.protocols.wstrust\6.8.0\lib\netstandard2.0\Microsoft.IdentityModel.Protocols.WsTrust.dll">
+      <PackagePath>Microsoft.IdentityModel.Protocols.WsTrust.dll</PackagePath>
+      <Modified>2020-10-18T23:40:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.identitymodel.tokens\6.8.0\lib\netstandard2.0\Microsoft.IdentityModel.Tokens.dll">
+      <PackagePath>Microsoft.IdentityModel.Tokens.dll</PackagePath>
+      <Modified>2020-10-13T00:27:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.identitymodel.tokens.saml\6.8.0\lib\netstandard2.0\Microsoft.IdentityModel.Tokens.Saml.dll">
+      <PackagePath>Microsoft.IdentityModel.Tokens.Saml.dll</PackagePath>
+      <Modified>2020-10-13T00:29:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.identitymodel.xml\6.8.0\lib\netstandard2.0\Microsoft.IdentityModel.Xml.dll">
+      <PackagePath>Microsoft.IdentityModel.Xml.dll</PackagePath>
+      <Modified>2020-10-13T00:30:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.compatibility\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.dll">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.dll</PackagePath>
+      <Modified>2024-01-15T19:09:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.dll">
+      <PackagePath>Microsoft.Maui.Controls.dll</PackagePath>
+      <Modified>2024-01-15T19:06:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.xaml\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Xaml.dll">
+      <PackagePath>Microsoft.Maui.Controls.Xaml.dll</PackagePath>
+      <Modified>2024-01-15T19:07:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.core\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.dll">
+      <PackagePath>Microsoft.Maui.dll</PackagePath>
+      <Modified>2024-01-15T19:07:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.essentials\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Essentials.dll">
+      <PackagePath>Microsoft.Maui.Essentials.dll</PackagePath>
+      <Modified>2024-01-15T19:09:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.graphics\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.dll">
+      <PackagePath>Microsoft.Maui.Graphics.dll</PackagePath>
+      <Modified>2024-01-15T19:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.graphics.win2d.winui.desktop\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll">
+      <PackagePath>Microsoft.Maui.Graphics.Win2D.WinUI.Desktop.dll</PackagePath>
+      <Modified>2024-01-15T19:09:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.InteractiveExperiences.Projection.dll">
+      <PackagePath>Microsoft.InteractiveExperiences.Projection.dll</PackagePath>
+      <Modified>2023-07-21T16:44:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WinUI.dll">
+      <PackagePath>Microsoft.WinUI.dll</PackagePath>
+      <Modified>2023-07-21T22:29:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppLifecycle.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppLifecycle.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Builder.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Builder.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.AppNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.AppNotifications.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.Resources.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.Resources.Projection.dll</PackagePath>
+      <Modified>2023-04-28T12:59:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll">
+      <PackagePath>Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.PushNotifications.Projection.dll">
+      <PackagePath>Microsoft.Windows.PushNotifications.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Security.AccessControl.Projection.dll">
+      <PackagePath>Microsoft.Windows.Security.AccessControl.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Power.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Power.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.System.Projection.dll">
+      <PackagePath>Microsoft.Windows.System.Projection.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.Windows.Widgets.Projection.dll">
+      <PackagePath>Microsoft.Windows.Widgets.Projection.dll</PackagePath>
+      <Modified>2023-04-20T18:26:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+      <Modified>2023-07-21T22:29:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Release.Net.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Release.Net.dll</PackagePath>
+      <Modified>2023-07-24T19:10:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.security.cryptography.pkcs\6.0.1\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll">
+      <PackagePath>System.Security.Cryptography.Pkcs.dll</PackagePath>
+      <Modified>2022-04-13T17:44:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.security.cryptography.xml\6.0.1\lib\net6.0\System.Security.Cryptography.Xml.dll">
+      <PackagePath>System.Security.Cryptography.Xml.dll</PackagePath>
+      <Modified>2022-07-13T17:45:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.duplex\6.0.0\lib\net6.0\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2023-05-03T21:06:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\System.ServiceModel.Federation.dll">
+      <PackagePath>System.ServiceModel.Federation.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\System.ServiceModel.NetFramingBase.dll">
+      <PackagePath>System.ServiceModel.NetFramingBase.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.security\6.0.0\lib\net6.0\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2023-05-03T21:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\xamarin.essentials\1.8.1\lib\netstandard2.0\Xamarin.Essentials.dll">
+      <PackagePath>Xamarin.Essentials.dll</PackagePath>
+      <Modified>2023-12-15T12:23:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ar\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ar\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ca\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ca\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\cs\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>cs\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\da\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>da\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\de\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>de\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\el\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>el\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\es\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>es\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\fi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>fi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\fr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>fr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\he\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>he\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\hi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\hr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\hu\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>hu\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\id\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>id\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\it\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>it\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ja\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ja\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ko\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ko\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ms\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ms\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:06:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\nb\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>nb\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\nl\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>nl\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:06:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\pl\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pl\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\pt-BR\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pt-BR\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\pt\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>pt\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ro\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ro\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\ru\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>ru\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\sk\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>sk\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\sv\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>sv\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:06:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\th\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>th\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\tr\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>tr\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\uk\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>uk\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\vi\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>vi\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\zh-HK\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-HK\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:06:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\zh-Hans\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-Hans\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:07:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\zh-Hant\Microsoft.Maui.Controls.resources.dll">
+      <PackagePath>zh-Hant\Microsoft.Maui.Controls.resources.dll</PackagePath>
+      <Modified>2024-01-15T19:06:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\cs\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>cs\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\de\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>de\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\es\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>es\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\fr\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>fr\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\it\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>it\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\ja\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>ja\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\ko\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>ko\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\pl\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>pl\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\pt-BR\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>pt-BR\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\ru\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>ru\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\tr\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>tr\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\zh-Hans\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>zh-Hans\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.federation\8.0.0\lib\net8.0\zh-Hant\System.ServiceModel.Federation.resources.dll">
+      <PackagePath>zh-Hant\System.ServiceModel.Federation.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\cs\System.ServiceModel.Http.resources.dll">
+      <PackagePath>cs\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\de\System.ServiceModel.Http.resources.dll">
+      <PackagePath>de\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\es\System.ServiceModel.Http.resources.dll">
+      <PackagePath>es\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\fr\System.ServiceModel.Http.resources.dll">
+      <PackagePath>fr\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\it\System.ServiceModel.Http.resources.dll">
+      <PackagePath>it\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\ja\System.ServiceModel.Http.resources.dll">
+      <PackagePath>ja\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\ko\System.ServiceModel.Http.resources.dll">
+      <PackagePath>ko\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\pl\System.ServiceModel.Http.resources.dll">
+      <PackagePath>pl\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\pt-BR\System.ServiceModel.Http.resources.dll">
+      <PackagePath>pt-BR\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\ru\System.ServiceModel.Http.resources.dll">
+      <PackagePath>ru\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\tr\System.ServiceModel.Http.resources.dll">
+      <PackagePath>tr\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\zh-Hans\System.ServiceModel.Http.resources.dll">
+      <PackagePath>zh-Hans\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.http\8.0.0\lib\net8.0\zh-Hant\System.ServiceModel.Http.resources.dll">
+      <PackagePath>zh-Hant\System.ServiceModel.Http.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\cs\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>cs\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\de\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>de\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\es\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>es\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\fr\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>fr\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\it\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>it\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\ja\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>ja\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\ko\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>ko\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\pl\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>pl\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\pt-BR\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>pt-BR\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\ru\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>ru\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\tr\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>tr\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\zh-Hans\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>zh-Hans\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.netframingbase\8.0.0\lib\net8.0\zh-Hant\System.ServiceModel.NetFramingBase.resources.dll">
+      <PackagePath>zh-Hant\System.ServiceModel.NetFramingBase.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\cs\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>cs\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\de\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>de\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\es\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>es\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\fr\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>fr\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\it\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>it\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\ja\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>ja\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\ko\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>ko\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\pl\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>pl\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\pt-BR\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>pt-BR\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\ru\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>ru\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\tr\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>tr\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\zh-Hans\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>zh-Hans\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.nettcp\8.0.0\lib\net8.0\zh-Hant\System.ServiceModel.NetTcp.resources.dll">
+      <PackagePath>zh-Hant\System.ServiceModel.NetTcp.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\cs\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>cs\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\de\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>de\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\es\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>es\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\fr\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>fr\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\it\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>it\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\ja\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>ja\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\ko\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>ko\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\pl\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>pl\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\pt-BR\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>pt-BR\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\ru\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>ru\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\tr\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>tr\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\zh-Hans\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>zh-Hans\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\system.servicemodel.primitives\8.0.0\lib\net8.0\zh-Hant\System.ServiceModel.Primitives.resources.dll">
+      <PackagePath>zh-Hant\System.ServiceModel.Primitives.resources.dll</PackagePath>
+      <Modified>2023-12-08T07:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.graphics.win2d\1.0.5.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2023-05-31T20:12:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
+      <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
+      <Modified>2023-04-28T12:58:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.compatibility\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
+      <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
+      <Modified>2024-01-15T19:00:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.controls.core\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.pri">
+      <PackagePath>Microsoft.Maui.Controls.pri</PackagePath>
+      <Modified>2024-01-15T18:59:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.maui.core\8.0.6\lib\net8.0-windows10.0.19041\Microsoft.Maui.pri">
+      <PackagePath>Microsoft.Maui.pri</PackagePath>
+      <Modified>2024-01-15T18:58:56.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>win32</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x86\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-x64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix">
+      <Name>Microsoft.WindowsAppRuntime.1.3</Name>
+      <Version>3000.934.1904.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsAppRuntime.1.3, MinVersion = 3000.934.1904.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\Gorin\.nuget\packages\microsoft.windowsappsdk\1.3.230724000\buildTransitive\..\tools\MSIX\win10-arm64\Microsoft.WindowsAppRuntime.1.3.msix</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
