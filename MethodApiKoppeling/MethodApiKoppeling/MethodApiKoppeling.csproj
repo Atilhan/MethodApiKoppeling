@@ -68,4 +68,10 @@
 		<PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="ContentPages\ViewRoute.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

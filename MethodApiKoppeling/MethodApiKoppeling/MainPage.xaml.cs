@@ -1,5 +1,6 @@
 ﻿using MethodApiKoppeling.Models;
 using MethodApiKoppeling.ViewModels;
+using System.Xml;
 using Xamarin.Essentials;
 using SecureStorage = Xamarin.Essentials.SecureStorage;
 
@@ -41,6 +42,15 @@ namespace MethodApiKoppeling
                 // You can also show an error popup if needed
                 await DisplayAlert("Error", "Incorrect password or username. Try again.", "OK");
             }
+        }
+
+        private async void GetRoutesButton_Clicked(object sender, System.EventArgs e)
+        {
+            int driverId = 120;
+            var routes = await _viewModel.GetDrivableRoutesAsync(driverId);
+            XmlDocument result= new XmlDocument();
+            result.LoadXml(routes.Body.GetDrivableRoutesResult);
+            responseLabel.Text = result.SelectSingleNode("/NewDataSet/Table/displayroute").InnerText;
         }
 
         private void DisplaySavedUserData()

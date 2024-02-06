@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-24T08:57:55.275</Modified>
+      <Modified>2024-02-06T09:23:35.508</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-24T08:57:54.754</Modified>
+      <Modified>2024-02-06T08:45:42.052</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MethodApiKoppeling.runtimeconfig.json">
       <PackagePath>MethodApiKoppeling.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MethodApiKoppeling.dll">
       <PackagePath>MethodApiKoppeling.dll</PackagePath>
-      <Modified>2024-01-24T08:57:52.233</Modified>
+      <Modified>2024-02-06T09:23:34.556</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MethodApiKoppeling.exe</PackagePath>
-      <Modified>2024-01-24T08:57:52.343</Modified>
+      <Modified>2024-02-06T09:23:34.598</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -267,27 +267,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-01-22T12:52:51.607</Modified>
+      <Modified>2024-02-01T11:44:36.961</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-01-22T12:52:51.617</Modified>
+      <Modified>2024-02-01T11:44:36.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-01-22T12:52:51.629</Modified>
+      <Modified>2024-02-01T11:44:36.981</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-01-22T12:52:51.647</Modified>
+      <Modified>2024-02-01T11:44:36.998</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-01-22T12:52:51.710</Modified>
+      <Modified>2024-02-01T11:44:37.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gorin\Downloads\Stage Idea-X\MethodApiKoppeling\MethodApiKoppeling\MethodApiKoppeling\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MethodApiKoppeling.deps.json">
       <PackagePath>MethodApiKoppeling.deps.json</PackagePath>
-      <Modified>2024-01-24T08:29:29.027</Modified>
+      <Modified>2024-02-01T11:28:40.487</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Gorin\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

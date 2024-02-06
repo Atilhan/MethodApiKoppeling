@@ -2,9 +2,11 @@
 using MethodApiKoppeling.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using Xamarin.Essentials;
 using SecureStorage = Xamarin.Essentials.SecureStorage;
 namespace MethodApiKoppeling.ViewModels
@@ -12,12 +14,12 @@ namespace MethodApiKoppeling.ViewModels
     public class MainPageViewModel
     {
         private readonly AppWebserviceSoapClient _apiClient;
+        
 
         public MainPageViewModel()
         {
             _apiClient = new KPRSServiceIdeaX.AppWebserviceSoapClient(KPRSServiceIdeaX.AppWebserviceSoapClient.EndpointConfiguration.AppWebserviceSoap);
-
-        }
+    }
 
         public async Task<LoginResponse> LoginAsync(LoginModel _loginModel)
         {
@@ -27,6 +29,19 @@ namespace MethodApiKoppeling.ViewModels
 
             var a = await _apiClient.LoginAsync(_loginModel.Username, _loginModel.Password);
             return a;
+        }
+
+        public async Task<GetDrivableRoutesResponse> GetDrivableRoutesAsync(int driverId)
+        {
+            try
+            {
+                var response = await _apiClient.GetDrivableRoutesAsync(driverId);
+                return response;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
         }
 
         public UserCredentialsModel GetSavedUserCredentials()
@@ -44,7 +59,6 @@ namespace MethodApiKoppeling.ViewModels
             }
             catch (Exception)
             {
-                // Handle the exception if the key doesn't exist or any other issue
                 return null;
             }
         }

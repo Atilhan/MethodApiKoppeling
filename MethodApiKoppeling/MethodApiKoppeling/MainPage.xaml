@@ -12,10 +12,10 @@
 
 
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="End">
-            <Image Source="C:\Users\Gorin\Downloads\Stage Idea-X\Werkbon DevOps\DigitaleWerkbon\ApiKoppelingTest\ApiKoppelingTesten\ApiKoppelingTesten\IdeaXLogo.png" WidthRequest="150" HeightRequest="100" />
-            <Label x:Name="responseLabel" Text="" />
             <Label  Text="Idea-X Almkerk Copyright ©" FontSize="12" TextColor="#808080" Margin="0,0,0,0"  />
+            <Label x:Name="responseLabel" Text="" />
             <Label x:Name="resultLabel" Text="Retrieved Value: " />
+            <Button Text="Get Drivable Routes" BackgroundColor="#009EE2" TextColor="White" Margin="0,10,0,0" WidthRequest="300" Clicked="GetRoutesButton_Clicked" />
         </StackLayout>
 
     </StackLayout>
